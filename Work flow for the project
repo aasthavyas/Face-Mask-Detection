@@ -1,0 +1,30 @@
+System Design
+
+Steps followed for this project:
+Step 1: Data Visualization
+In the first step, we visualised the total number of images in our dataset in both
+categories.
+Step 2: Splitting the data
+In this step, we split our data into the training set which will contain the images on
+which the CNN model will be trained and the test set with the images on which our
+model will be tested.
+In this, we take split_size =0.8, which means that 80% of the total images will go to
+the training set and the remaining 20% of the images will go to the test set.
+Step 3: Building the Model
+In the next step, we build our Sequential CNN model with various layers such as
+Conv2D, MaxPooling2D, Flatten, Dropout and Dense. In the last Dense layer, we use
+the ‘softmax’ function to output a vector that gives the probability of each of the two
+classes.
+Step 4: Pre-Training the CNN model
+After building our model, we fit them to our model in the next step.
+Step 5: Training the CNN model
+This step is the main step where we fit our images in the training set and the test set
+to our Sequential model we built using keras library. We have trained the model for
+20 epochs (iterations). However, we can train for more number of epochs to attain
+higher accuracy lest there occurs over-fitting.
+Step 6: Importing the Face detection Program
+After this, we intend to use it to detect if we are wearing a face mask using our PC’s
+webcam.
+Step 7: Detecting the Faces with and without Masks
+In the last step, we use the OpenCV library to run an infinite loop to use our web
+camera in which we detect the face using the Cascade Classifier.
