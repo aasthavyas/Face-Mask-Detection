@@ -12,8 +12,17 @@ of a Convolutional Neural Network (CNN) architecture capable of detecting masked
 and unmasked faces. These can further be integrated with pre-installed CCTV
 cameras. This will help track safety violations, promote the use of face masks, and
 ensure a safe working environment.
+
+## Development Environment
+This project has been developed on python using Anaconda and Jupyter notebooks.
+Python libraries used are Os, Matplotlib, OpenCV, Numpy, TensorFlow, Keras and
+OpenCV.
+In the system, Convolutional Neural Networks architecture will be used along with uses of OpenCV, Cascade
+classifier, Keras and TensorFlow.
+
 ## Dataset
 The data used can be downloaded through this link or can be downloaded from this repository as well (folders 'test' and 'train'). There are 1314 training images and 194 test images divided into two catgories, with and without mask.
+
 ## Output
 ![Screenshot (504)](https://user-images.githubusercontent.com/29532655/124083570-a59fc800-da6b-11eb-8eb0-f468b0bc9e5e.png) ![Screenshot (503)](https://user-images.githubusercontent.com/29532655/124083626-b8b29800-da6b-11eb-93ae-1bde5a1ff518.png)
 
