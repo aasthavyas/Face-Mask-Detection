@@ -16,4 +16,4 @@ ensure a safe working environment.
 The data used can be downloaded through this link or can be downloaded from this repository as well (folders 'test' and 'train'). There are 1314 training images and 194 test images divided into two catgories, with and without mask.
 ![Screenshot (504)](https://user-images.githubusercontent.com/29532655/124083570-a59fc800-da6b-11eb-8eb0-f468b0bc9e5e.png)
 ![Screenshot (503)](https://user-images.githubusercontent.com/29532655/124083626-b8b29800-da6b-11eb-93ae-1bde5a1ff518.png)
-<img src="https://user-images.githubusercontent.com/29532655/124083570-a59fc800-da6b-11eb-8eb0-f468b0bc9e5e.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/29532655/124083570-a59fc800-da6b-11eb-8eb0-f468b0bc9e5e.png" width="10000" height="10000">
