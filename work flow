@@ -1,0 +1,35 @@
+# What work has been done
+
+Step 1: Digital Pre-processing our dataset
+Digital image processing is the use of computer algorithms to perform image
+processing on digital images. As a subfield of digital signal processing, digital image
+processing has many advantages over analogue image processing. It allows a much
+wider range of algorithms to be applied to the input data.
+the aim of digital image processing is to improve the image data (features) by
+suppressing unwanted distortions and/or enhancement of some important image
+features so that our AI-Computer Vision models can benefit from this improved data
+to work on.
+Step 2: Building Convolutional Neural Network
+
+1. Our first 2 layers are Conv2D layers. These are convolution layers that will deal
+with our input images, which are seen as 2-dimensional matrices. 100 in the first
+layer and 200 in the second layer are the number of nodes in each layer.
+
+2. Activation is the activation function for the layer. The activation function we will
+be using for our first 2 layers is the ReLU, or Rectified Linear Activation.
+3. We add a 2D max pooling layer. Specify the size of the pooling in the x and y
+directions – (2, 2) and stride of (1,1)
+4. In between the Conv2D layers and the dense layer, there is a Flatten layer. Flatten
+serves as a connection between the convolution and dense layers.
+
+11
+5. Dense is the layer type we will use in our output layer. Dense is a standard layer
+type.
+6. The activation is softmax. Softmax makes the output sum up to 1 so the output
+can be interpreted as probabilities. The model will then make its prediction based
+on which option has the highest probability.
+7. Compiling the model takes three parameters: optimiser, loss and metrics.
+
+Fig. 2. Detecting Faces with and without masks
+
+Step 3 : Collecting and preprocessing Data for geospatial Visualization
